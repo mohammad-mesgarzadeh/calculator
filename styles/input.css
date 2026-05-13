@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.btn {
+    @apply text-[#222222] bg-[#E9EAEC] font-bold shadow-xl rounded-full h-10 w-10 uppercase cursor-pointer
+}
+
+.btn:hover {
+    @apply bg-[#D3D4D5] shadow-lg transform scale-105 transition duration-200 ease-in-out;
+}
+
+#equal:hover {
+    @apply bg-[#D3D4D5] shadow-lg transform scale-105 transition duration-200 ease-in-out;
+}
+
+.op {
+    @apply text-[#FFB74D]
+}
+
+.s1 {
+    @apply text-[#FF6F6F]
+}
+
